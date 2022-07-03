@@ -1,0 +1,23 @@
+@import './Variables.scss';
+
+.mainPage{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+    h2{
+        color:$greenColor;
+        font-size: 15px;
+
+        @include tablet-md{
+font-size: 25px;
+        }
+    }
+
+    .fa-solid{
+        color:red;
+      }
+}
+
+

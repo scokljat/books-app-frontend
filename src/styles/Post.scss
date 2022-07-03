@@ -1,0 +1,33 @@
+@import './Variables.scss';
+
+.wrapper{
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 10px;
+}
+
+.readButton{
+width: 200px;
+}
+
+.icon{
+    font-size: 22px;
+}
+
+.deleteButton{
+margin-right: 5px;
+}
+
+.buttons{
+display: flex;
+margin-top: 5px;
+}
+
+button {
+    @include buttonStyle(50px)
+}
